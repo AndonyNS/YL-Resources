@@ -10,6 +10,7 @@ import { HttpModule, Http } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { SettingsComponent } from './settings/settings.component';
 
 export function HttpLoaderFactory(http: Http) {
     return new TranslateHttpLoader(http, "i18n/", ".json");
@@ -20,6 +21,7 @@ export function HttpLoaderFactory(http: Http) {
     AppComponent,
     NavMenuComponent,
     HomeComponent,
+    SettingsComponent,
     routedComponents
   ],
   imports: [

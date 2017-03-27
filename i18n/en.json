@@ -1,3 +1,6 @@
 {
-    "WELCOME": "Materials and Resources for Young Life leaders everywhere"
+    "WELCOME": "Materials and Resources for Young Life leaders everywhere",
+    "SETTINGS": {
+        "LANGUAGE": "Language"
+    }
 }

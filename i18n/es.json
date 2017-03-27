@@ -1,3 +1,6 @@
 {
-    "WELCOME": "Materiales y Recursos para lideres de Young Life alrededor del mundo."
+    "WELCOME": "Materiales y Recursos para lideres de Young Life alrededor del mundo.",
+    "SETTINGS": {
+        "LANGUAGE": "Idioma:"
+    }
 }
