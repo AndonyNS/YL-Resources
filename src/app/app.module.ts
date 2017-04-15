@@ -1,7 +1,7 @@
 import { routedComponents, AppRoutingModule } from './app-routing.module';
 import { NavMenuComponent } from './home/nav-menu.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import {TranslateHttpLoader} from "@ngx-translate/http-loader";
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -13,7 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { SettingsComponent } from './settings/settings.component';
 
 export function HttpLoaderFactory(http: Http) {
-    return new TranslateHttpLoader(http, "i18n/", ".json");
+    return new TranslateHttpLoader(http, 'i18n/', '.json');
 }
 
 @NgModule({

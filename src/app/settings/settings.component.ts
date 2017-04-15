@@ -8,11 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SettingsComponent implements OnInit {
 
-  constructor(private translate: TranslateService) { 
-    translate.addLangs(["en", "es"]);
+  constructor(private translate: TranslateService) {
+    translate.addLangs(['en', 'es']);
     translate.setDefaultLang('en');
 
-    let browserLang = translate.getBrowserLang();
+    const browserLang = translate.getBrowserLang();
     translate.use(browserLang.match(/en|es/) ? browserLang : 'en');
   }
 
